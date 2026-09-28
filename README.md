@@ -53,6 +53,3 @@ sudo ./send_gtpu veth-n3 $(cat /sys/class/net/veth-n6/address)
 - Dump counters: `bpftool map dump pinned /sys/fs/bpf/tc/globals/teid_stats`
 - `lookup_miss` increments on TEID miss.
 
-## Note
-
-The code in this repository is largely unreviewed.
